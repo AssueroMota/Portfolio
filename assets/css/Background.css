@@ -1,0 +1,236 @@
+.Pro-Back h2 {
+    font-size: 40px;
+    color: rgb(243, 241, 241);
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+body {
+    transition: all 0.4s;
+}
+
+.Background-Title h2 {
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 3px;
+}
+
+.Firts-Season h1 {
+    /* background-color: blue; */
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+
+
+
+
+.date-work .Date-Period {
+    text-align: center;
+    float: left;
+    margin-left: 430px;
+    margin-top: -325px;
+    color: #000000;
+    width: 150px;
+    border-radius: 1px 5px 5px 0px;
+    position: absolute;
+    background-color: #fff;
+    padding: 2px;
+    text-shadow: 0px 0px 1px;
+}
+
+.date-work .Date-Period:before {
+    content: "";
+    border-right: 18px solid #ffff;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    position: absolute;
+    top: -5px;
+    left: -18px;
+    text-shadow: 0px 0px 1px;
+}
+
+
+
+.Chesf-One .Date-Period-Chesf-One {
+    text-align: center;
+    float: left;
+    margin-left: 130px;
+    margin-top: 182px;
+    width: 200px;
+    color: #000000;
+    position: absolute;
+    background-color:#ffff;
+    border-radius: 7px 0px 0px 7px;
+    padding: 1px 0px 0px 0px;
+    text-shadow: 0px 0px 1px;
+}
+
+
+.Chesf-One .Date-Period-Chesf-One:before {
+    content: "";
+    border-left: 18px solid #ffff;;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    position: absolute;
+    top: -6px;
+    right: -18px;
+    text-shadow: 0px 0px 1px;
+}
+
+
+
+
+
+.Chesf-Two .Date-Period-Chesf-Two {
+    text-align: center;
+    float: left;
+    margin-left: 430px;
+    margin-top: -225px;
+    color: #000000;
+    width: 220px;
+    position: absolute;
+    background-color:#ffff;;
+    border-radius: 1px 7px 7px 0px;
+    padding: 1px 0px 0px 0px;
+    text-shadow: 0px 0px 1px;
+}
+
+
+.Chesf-Two .Date-Period-Chesf-Two:before {
+    content: "";
+    border-right: 18px solid #fff;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    position: absolute;
+    top: -6px;
+    left: -18px;
+    
+    text-shadow: 0px 0px 1px;
+}
+
+
+
+
+
+.Marista-Card .Marista-Date-Period {
+    text-align: center;
+    float: left;
+    margin-left: 130px;
+    margin-top: 140px;
+    width: 200px;
+    color: #000000;
+    background-color: #ffff;;
+    position: absolute;
+    padding: 3px 0px 0px 0px;
+    border-radius: 7px 0px 0px 7px;
+    text-shadow: 0px 0px 1px;
+}
+
+.Marista-Card .Marista-Date-Period:before {
+    content: "";
+    border-left: 18px solid #ffff;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    position: absolute;
+    top: -5px;
+    right: -17px;
+    text-shadow: 0px 0px 1px;
+ 
+}
+
+
+
+.font {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.card-Chesf img {
+    margin-bottom: 15px;
+}
+
+.card-Chesf {
+    margin-left: 25PX;
+    background: white;
+    width: 70%;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 105%;
+    background-image: url(/assets/img/background-card.jpg);
+    color: #00ffff;
+}
+
+.card-Chesf ul {
+    text-align: left;
+    padding: 15px;
+    margin: 2px;
+    font-size: 13px;
+}
+
+.card-Chesf-2 {
+    background: white;
+    width: 70%;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 1%;
+    font-size: 13px;
+    background-image: url(/assets/img/background-card.jpg);
+    color: #00ffff;
+   
+}
+
+.card-Chesf-2 ul {
+    text-align: left;
+    padding: 15px;
+    margin: 2px;
+    font-size: 16px;
+}
+
+.card-Chesf-2 img {
+    margin-right: 30px;
+}
+
+.card-Marista {
+    margin-left: 25PX;
+    background: white;
+    width: 70%;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 106%;
+    font-size: 13px;
+    background-image: url(/assets/img/background-card.jpg);
+    color: #fff;
+}
+
+.card-Marista img {
+    border-radius: 25px;
+}
+
+
+/* .formatura{
+    float: left;
+    margin-top: -10%;
+    margin-left: -200px;
+} */
+
+
+
+
+
+
+/* EFEITO BOTAO */

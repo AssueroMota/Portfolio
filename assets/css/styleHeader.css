@@ -1,0 +1,118 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    flex-direction: row;
+    background: linear-gradient(to left, #070707, #070707);
+    background: linear-gradient(to right, #070707, #070707);
+    padding-top: 10px;
+    font-size: 22px;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+
+}
+
+
+.logo {
+    transition: 0.4s;
+}
+
+.logo:hover {
+    transform: translateY(3px);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
+        0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+
+
+.header .logo {
+    margin-right: 40%;
+    margin-top: 10px;
+    align-items: center;
+
+}
+
+
+.header ul {
+    list-style: none;
+
+}
+
+.header ul li {
+    position: relative;
+    float: left;
+    height: 25px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+
+.header ul li:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
+        0 1px 1px 0 rgba(0, 0, 0, 0.09);
+
+}
+
+.header ul li ul li {
+    cursor: pointer;
+    font-size: 21px;
+    border: 1px solid rgb(83, 68, 68);
+    border-radius: 5px;
+    width: 55%;
+    margin-top: 2px;
+    margin-left: 23%;
+
+    background-color: rgb(22, 18, 18);
+}
+
+.header ul li ul li:hover {
+    background-color: rgb(66, 66, 66);
+    color: #aaaaaa;
+    margin-top: 2px;
+    margin-left: 23%;
+    cursor: pointer;
+    font-size: 21px;
+    border: 1px solid rgb(83, 68, 68);
+    border-radius: 5px;
+}
+
+
+.header ul ul {
+    display: none;
+    margin: 0;
+
+
+}
+
+.header ul li ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.header ul li ul li a:hover {
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+.header .about:hover>ul {
+    display: block;
+}

@@ -1,0 +1,150 @@
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+
+
+    /* Index-Html */
+
+
+
+    .header .logo img {
+        width: 55%;
+    }
+
+    .header ul li {
+        font-size: 23px;
+    }
+
+    .Personal-Bio {
+        margin-left: -1%;
+    }
+
+    .about-me {
+        width: 100%;
+        margin: auto;
+    }
+
+    .about-me-firts {
+        width: 95%;
+    }
+
+    .about-me img {
+        width: 35%;
+    }
+
+    .input-container {
+        width: 55%;
+    }
+
+    .Contact-me {
+        width: 37%;
+        margin-left: -40px;
+    }
+
+    .style-form-input {
+        float: left;
+        width: 100%;
+        margin: 1em 0;
+        position: relative;
+        border-radius: 4px;
+
+
+    }
+
+    /* Curriculum */
+
+    .Background-Title h2 {
+        margin-left: 11%;
+    }
+
+    .timeline-area {
+        margin-left: 11%;
+    }
+
+    .Title-Academic h2 {
+        margin-left: 8%;
+    }
+
+    .wrapper {
+        margin-left: 0%;
+    }
+
+
+
+    .educationF {
+        height: 140px;
+        width: 90%;
+        margin-left: 4%;
+        align-items: center;
+
+    }
+
+
+    .educationF h3 {
+        font-size: 17px;
+    }
+
+    .educationF h4 {
+        display: none;
+    }
+
+    .educationF p {
+        display: none;
+    }
+
+
+    .HardSoft-Skills {
+        height: 30%;
+    }
+
+    .HardSoft-Skills .aTTributs-Formacion {
+        margin-top: -20%;
+        width: 80%;
+    }
+
+
+    /* projectos */
+
+    .projects h1 {
+        margin-left: 6%;
+    }
+
+    .projects h2 {
+        margin-top: 50px;
+    }
+
+
+    .Container-Project {
+        width: 30%;
+        height: 250px;
+    }
+
+    .video-ad video {
+        margin-top: 25px;
+        width: 310px;
+        height: 150px;
+    }
+
+    .btn-projects {
+        width: 250px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .Contact-me {
+        width: 40%;
+        margin-left: -40px;
+    }
+
+    .Contact-me h1 {
+        margin-right: -46px;
+    }
+
+
+
+
+
+
+
+
+
+
+}

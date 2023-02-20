@@ -1,0 +1,107 @@
+.HardSoft-Skills {
+
+    display: flex;
+    width: 100%;
+    height: 820px;
+    justify-content: center;
+
+    background-image: url(/assets/img/backgroundEscuro-Soft-Hard.jpg);
+
+}
+
+.SOFT {
+
+    width: 50%;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+    text-shadow: 0px 0px 2px;
+
+}
+
+.HARD {
+
+    width: 50%;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 400;
+    text-shadow: 0px 0px 2px;
+
+}
+
+.SOFT h2 {
+    font-size: 80px;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    margin: 15px;
+    margin-bottom: 35px;
+    padding: 5px;
+}
+
+.SOFT ul {
+    margin: 50px;
+    padding: 2px;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 70px;
+
+}
+
+.SOFT img {
+    margin-top: 17px;
+}
+
+.SOFT ul li {
+    margin-top: 5px;
+    padding: 4px;
+
+}
+
+.aTTributs-Formacion {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+
+.HARD h2 {
+    font-size: 80px;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    margin: 15px;
+    margin-bottom: 35px;
+    padding: 5px;
+}
+
+.HARD ul {
+    margin: 50px;
+    padding: 2px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.HARD ul li {
+    margin-top: 5px;
+    padding: 4px;
+}
+
+.Title-Academic {
+    background-image: url(/Portifolio/assets/img/);
+}
+
+
+.HARD img:hover {
+    transition: all 0.3s ease-in-out;
+    width: 48%;
+    cursor: pointer;
+
+}
+
+.SOFT img:hover {
+    transition: all 0.3s ease-in-out;
+    width: 68%;
+    cursor: pointer;
+}

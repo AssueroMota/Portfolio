@@ -1,0 +1,57 @@
+.Main_Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Main_Header h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.Main_Header p {
+    background-color: brown;
+    color: aliceblue;
+    padding: 13px;
+    font-size: 17px;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.Main_Header .Tech {
+    width: 10%;
+    background-color: black;
+    color: beige;
+
+}
+
+.Main_Header .Describe {
+    background-color: brown;
+    color: aliceblue;
+    font-size: 13px;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.Main_Header .Describe span {
+    padding: 15px;
+    opacity: 0.8;
+    margin: 1px 1px 1px 0px;
+    border: 2px solid rgb(15, 15, 15);
+    width: 300px;
+    height: 17px;
+}
+
+.Main_Header .Describe span:hover {
+    opacity: 1;
+    cursor: pointer;
+    background-color: black;
+    font-size: 15px;
+}

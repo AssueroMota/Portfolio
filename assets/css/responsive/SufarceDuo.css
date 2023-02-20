@@ -1,0 +1,114 @@
+@media screen and (max-width: 767px) and (min-width: 540px) {
+
+    /* Index-Html */
+    .header {
+        width: 100px;
+        text-align: center;
+    }
+
+    .header img {
+        display: none;
+    }
+
+    .header ul {
+        margin-right: -410px;
+    }
+
+    .Personal-Bio {
+        height: 70vh;
+    }
+
+    .Bio-descripition h1 {
+        width: 70%;
+        font-size: 55px;
+        margin-left: 55px;
+        text-align: center;
+    }
+
+    .Bio-descripition h2 {
+        width: 88%;
+        font-size: 20px;
+        margin-left: 25px;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+
+    .IconsHeader ul {
+        display: none;
+    }
+
+
+    .Bio-descripition h5 {
+        text-align: center;
+    }
+
+    .Bio-descripition button {
+        margin-left: 100px;
+    }
+
+    .about-me h2 {
+        text-align: center;
+        margin-left: 75px;
+        margin-top: -25px;
+    }
+
+    .about-me img {
+        display: none;
+
+    }
+
+    .about-me p {
+        width: 100%;
+        margin: auto;
+        font-size: 17px;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+
+    .Information-Me {
+        display: block;
+        width: 150px;
+        height: 152vh;
+    }
+
+
+    .Contact-me {
+        margin-left: -55%;
+        text-align: center;
+        width: 200px
+    }
+
+    .contME h1 {
+        width: 360px;
+        font-size: 50px;
+    }
+
+    .Cv-Btn {
+        text-align: center;
+        margin-left: 99px;
+        margin-top: -5px;
+    }
+
+    .input-container {
+        width: 400px;
+        margin-left: -15px;
+    }
+
+    .input-container button {
+        text-align: center;
+        margin-left: 55px;
+        margin-top: 10px;
+    }
+
+    .style-600 {
+        float: left;
+        width: 100%;
+        margin: 1.5em 0;
+        position: relative;
+        border-radius: 4px;
+    }
+
+
+
+}

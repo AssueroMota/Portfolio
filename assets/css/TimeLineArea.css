@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.timeline-area {
+    margin: 50%;
+    margin-right: -50%;
+    margin: auto;
+    width: 360px;
+    border-right: 2px solid #ccc;
+    padding: 0 20px 0 30px;
+    
+}
+
+.Pro-Back {
+    position: relative;
+    height: 100%;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.container-main{
+    background-image: url(/assets/img/Fundo-Parallax-Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position-y: center;
+}
+
+#HeaderStart{
+    background: rgb(211, 6, 6);;
+    background: radial-gradient(circle,to right rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 55px;
+    align-items: center;
+    margin-bottom: -10;
+    padding: 5px;
+    margin-top: -4px;
+}
+
+
+.Background-Title h2 {
+    text-align: center;
+    /* margin-top: 50px; */
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.timeline-area {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+
+.card-Lito {
+
+    background: white;
+    width: 70%;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 80px;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 20px;
+    background-image: url(/assets/img/background-card.jpg);
+    color: #00ffff;
+ 
+   
+}
+.FontTitle h3{
+
+    font-size: 19px;
+    color: #fff;
+   
+
+}
+.FontTitle h4{
+   
+    font-size: 17px;
+    color: #fff;
+   
+
+}
+
+
+
+
+.card-Lito img {
+    border-radius: 13px;
+    width: 40%;
+}
+
+.card-Lito ul {
+
+    text-align: left;
+    padding: 15px;
+    margin: 2px;
+
+}
+
+.card-Lito i {
+    font-size: 25px;
+    float: left;
+    margin-left: -35px;
+    margin-top: 7px;
+    display: none;
+}
+
+
+#card-one {
+    margin-left: 5px;
+}
+
+#card-one::before {
+
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 5px solid #ddd;
+    position: absolute;
+    top: 39%;
+    right: 8px;
+}
+
+#card-one::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent rgb(83, 120, 149);
+    border-width: 8px;
+    position: absolute;
+    top: 40%;
+    right: 37px;
+    background: gradient(linear, left top, right top, from(#CCCCCC), to(#000000));
+}
+
+#card-two::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 5px solid #ddd;
+    position: absolute;
+    top: 39%;
+    right: 8px;
+}
+
+#card-two::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent rgb(9, 32, 63) transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    top: 40%;
+    left: 101%;
+
+}
+
+
+#card-trhee::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 5px solid #ddd;
+    position: absolute;
+    top: 39%;
+    right: 8px;
+}
+
+
+#card-trhee::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent rgb(27, 23, 36);
+    border-width: 8px;
+    position: absolute;
+    top: 40%;
+    right: 36px;
+    background: linear-gradient(to top, rgb(9, 32, 63) 0%, rgb(83, 120, 149) 100%);
+
+}
+
+#card-one,
+#card-two,
+#card-three,
+#card-four {
+    font-size: 13px;
+    height: 435px;
+    transition: all 0.4s ease-in-out;
+}
+
+#card-two{
+    height: 410px;
+}
+
+#card-one ul li{
+    height: 55px;
+}
+#card-two ul li{
+    padding: 5px;
+}
+#card-trhee ul li{
+    height: 100px;
+    text-align: center;
+}
+#card-trhee{
+    height: 270px;
+}
+
+#card-four{
+    height: 290px;
+}
+#card-one ul li:hover{
+    font-size: 17px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    text-align:start;
+    list-style-type: none;
+    box-shadow: 12px 15px 20px rgb(0 0 0 / 16%);
+    background: transparent;
+    height: 112%;
+    
+}
+
+#card-two ul li:hover{
+    font-size: 17px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    text-align:start;
+    list-style-type: none;
+    box-shadow: 12px 15px 20px rgb(0 0 0 / 16%);
+    background: transparent;
+    height: 112%;
+    
+}
+
+#card-trhee ul li:hover{
+    font-size: 17px;
+    
+    padding: 5px;
+    border-radius: 20px;
+    text-align:center;
+    list-style-type: none;
+    box-shadow: 12px 15px 20px rgb(0 0 0 / 16%);
+    background: transparent;
+    height: 110%;
+}
+#card-four ul li:hover{
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    text-align:center;
+    list-style-type: none;
+    box-shadow: 12px 15px 20px rgb(0 0 0 / 16%);
+    background: transparent;
+    height: 110%;
+}
+
+
+
+#card-four::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 5px solid #ddd;
+    position: absolute;
+    top: 39%;
+    right: 8px;
+}
+
+#card-four::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent rgb(32, 7, 80) transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    top: 40%;
+    left: 102%;
+}
+
+
+
+
+
+
+
+
+/* .main{
+    margin-left: -25%;
+} */
+
+

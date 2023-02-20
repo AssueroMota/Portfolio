@@ -1,0 +1,65 @@
+#card-one .Hidden {
+    display: none;
+}
+
+#card-one .Look {
+    font-size: 27px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 5px;
+    float: left;
+    margin-left: -35px;
+    margin-top: 7px;
+    display: block;
+}
+
+
+#card-two .Hidden {
+    display: none;
+}
+
+#card-two .Look {
+    font-size: 23px;
+    border-radius: 5px;
+    color: rgb(175, 175, 175);
+    background-color: transparent;
+    padding: 3px;
+    float: left;
+    margin-left: -35px;
+    margin-top: 7px;
+    display: block;
+}
+
+#card-trhee .Hidden {
+    display: none;
+}
+
+#card-trhee .Look {
+    font-size: 25px;
+    border-radius: 5px;
+    color: rgb(175, 175, 175);
+    background-color: transparent;
+    padding: 3px;
+    float: left;
+    margin-left: -35px;
+    margin-top: 27px;
+    display: block;
+}
+
+
+.card-Marista .Hidden {
+    display: none;
+}
+
+.card-Marista .Look {
+    font-size: 25px;
+    border-radius: 5px;
+    color: rgb(175, 175, 175);
+    background-color: transparent;
+    padding: 3px;
+    float: left;
+    margin-left: -30px;
+    margin-top: 7px;
+    display: block;
+}

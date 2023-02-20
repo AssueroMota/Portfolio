@@ -1,0 +1,228 @@
+/* .Education {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 12px;
+}
+.Title-Academic h2{
+    color: rgb(238, 238, 238);
+}
+.educationF {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);     
+    border-radius: 50px, 100px, 100px, 100px;
+    padding: 0 5px 5px 5px;
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 220px;
+    align-items: center;
+    width: 60%;
+    justify-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    background: linear-gradient(to top, rgb(9, 32, 63) 0%, rgb(83, 120, 149) 100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Unibra{
+    height: 250px;
+}
+.educationF:hover{
+    animation: animationProduto 1.2s;
+    cursor: pointer;
+}
+
+@keyframes animationProduto {
+    30% {
+        -webkit-transform: translateY((-15px));
+        transform: translateY(-15px);
+    }
+}
+
+.Education{
+    margin-top: -80px;
+    width: 100%;
+    color: #050505;
+   
+}
+
+.educationF img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 200px;
+    margin-left: 20px;
+}
+.Grau-Técnico img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 200px;
+    margin-right: 412px;
+}
+.Marista img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 200px;
+    margin-right: 400px;
+}
+
+.educationF h3 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 50px;
+    margin-right: -120px;
+    font-weight: 0;
+    font-size:25px;
+    letter-spacing: 0.2px;
+}
+.Metropolitana h3{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 50px;
+    margin-left: 29px;
+    font-weight: 0;
+    font-size:25px;
+    letter-spacing: 0.2px;
+}
+
+.Grau-Técnico h3{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 50px;
+    margin-left: -740px;
+    font-weight: 0;
+    font-size:25px;
+    letter-spacing: 0.2px;
+}
+.Unibra h3{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 50px;
+    margin-left: -10px;
+    font-weight: 0;
+    font-size:25px;
+    letter-spacing: 0.2px;
+}
+.Nassau h3{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 50px;
+    margin-right: -380px;
+    font-weight: 0;
+    font-size:25px;
+    letter-spacing: 0.2px;
+}
+.Marista h3{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 50px;
+    margin-left: -660px;
+    font-weight: 0;
+    font-size:25px;
+    letter-spacing: 0.2px;
+}
+.educationF h4 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-right: -230px;
+    margin-bottom: 30px;
+    font-size:17px;
+    letter-spacing: 0.2px;
+}
+.Grau-Técnico h4{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-left: -595px;
+    margin-bottom: 30px;
+    font-size:17px;
+    letter-spacing: 0.2px;
+
+}
+
+.Metropolitana h4{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-right: -156px;
+    margin-bottom: 30px;
+    font-size:17px;
+    letter-spacing: 0.2px;
+}
+.Unibra h4{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-left:20px;
+    margin-bottom: 30px;
+    font-size:17px;
+    letter-spacing: 0.2px;
+}
+.Nassau h4{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-left:20px;
+    margin-bottom: 30px;
+    font-size:17px;
+    letter-spacing: 0.2px;
+}
+.Marista h4{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-left:-775px;
+    margin-bottom: 30px;
+    font-size:17px;
+    letter-spacing: 0.2px;
+}
+.educationF p {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-size: 18px;
+    margin-bottom: 11px;
+    text-align: start;
+    margin-left: 30px;
+}
+
+.Alura{
+    background-color: aqua;
+}
+.Metropolitana{
+    background-color: #223b58;
+    color: aliceblue;
+}
+.Grau-Técnico {
+    background-color: #003d1a;
+    color: aliceblue;
+} */
