@@ -167,7 +167,7 @@ body {
     border-radius: 25px;
     text-align: center;
     margin-left: 105%;
-    background-image: url(/assets/img/background-card.jpg);
+    background-image: url(assets/img/background-card.jpg);
     color: #00ffff;
 }
 
@@ -187,7 +187,7 @@ body {
     text-align: center;
     margin-left: 1%;
     font-size: 13px;
-    background-image: url(/assets/img/background-card.jpg);
+    background-image: url(assets/img/background-card.jpg);
     color: #00ffff;
    
 }
@@ -213,7 +213,7 @@ body {
     text-align: center;
     margin-left: 106%;
     font-size: 13px;
-    background-image: url(/assets/img/background-card.jpg);
+    background-image: url(assets/img/background-card.jpg);
     color: #fff;
 }
 

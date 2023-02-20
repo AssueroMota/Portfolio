@@ -19,7 +19,7 @@
     margin-bottom: 20px;
 }
 .container-main{
-    background-image: url(/assets/img/Fundo-Parallax-Background.jpg);
+    background-image: url(assets/img/Fundo-Parallax-Background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -60,7 +60,7 @@
     text-align: center;
     margin-left: 5%;
     font-size: 20px;
-    background-image: url(/assets/img/background-card.jpg);
+    background-image: url(assets/img/background-card.jpg);
     color: #00ffff;
  
    
