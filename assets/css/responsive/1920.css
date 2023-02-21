@@ -1,4 +1,4 @@
-@media screen and (max-width: 1920px) and (min-width: 1920px)  {
+@media screen and (max-width: 1920px) and (min-width: 1920px) {
 
 
     /* Index-Html */
@@ -111,10 +111,18 @@
     }
 
 
-  .titlevideo {
-    margin-top: 10px;
-    margin: 25px;
-  }
+    /* projectos */
+
+    .titlevideo {
+        margin-top: 10px;
+        margin: 25px;
+    }
+
+    .video-ad video {
+        width: 95%;
+        height: 400px;
+    }
+
 
 
 
