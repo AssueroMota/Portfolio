@@ -317,9 +317,14 @@ i {
 }
 
 
+
+
 /* Formulario-FINAL */
 
-
+.img img{
+    text-align: center;
+    margin-right: 250px;
+}
 .Information-Me {
     display: flex;
     width: 92%;
@@ -453,12 +458,12 @@ i {
 }
 
 .fa-github:hover {
-    color: rgb(83, 70, 158);
+    color:#fa7f72;
     font-size: 31px;
 }
 
 .fa-envelope:hover {
-    color: rgb(167, 134, 134);
+    color: #eead2d;;
     font-size: 31px;
 }
 

@@ -16,10 +16,10 @@
     animation: fadeDown 0.8s;
 }
 .card-Marista{
-    animation: fadeRigth 3s;
+    animation: fadeRigth 1 s;
 }
 .card-Chesf {
-    animation: fadeRight 3s;
+    animation: fadeRight 1s;
 }
 /* .educationF{
     animation: fadeDown 2s;
@@ -27,6 +27,21 @@
 .Title-Academic{
     animation: fadeDown 2s;
 }
+.Metropolitana {
+    animation: fadeLeft 1s;
+}
+.Marista {
+    animation: fadeRight 1s;
+}
+
+.Udemy{
+    animation: fadeLeft 1s;
+}
+
+.Alura {
+    animation: fadeRight 1s;  
+}
+
 
 
 /* effects of certificate */

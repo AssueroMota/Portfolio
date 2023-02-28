@@ -19,9 +19,25 @@
 
 .logo {
     transition: 0.4s;
+    transform: translateY(0px);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+    
 }
 
 .logo:hover {
+    
     transform: translateY(3px);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
         0 1px 1px 0 rgba(0, 0, 0, 0.09);
@@ -50,7 +66,6 @@
     margin: auto;
     text-align: center;
     transition: 0.5s;
-
 }
 
 

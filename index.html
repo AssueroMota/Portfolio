@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio Assuero</title>
 
-
     <!-- icone da TAG -->
     <link rel="icon" href="assets/icons/laptopNAV.jpg">
 
@@ -81,13 +80,13 @@
             <ul style="display: flex;">
 
                 <!-- <li><a href="#" class="home">Home</a></li> -->
-                <li><a href="./assets/loading/backgroundLoading.html" class="background">Curriculum</a></li>
+                <li><a href="./assets/loading/backgroundLoading.html" class="background">Linha do Tempo</a></li>
 
-                <li href="#" class="about">About
+                <li href="#" class="about" style="font-family: 'Playfair Display', serif;">Sobre
                     <ul>
                         <li class="secondPlace"><a class="DropDown"
-                                href="./assets/loading/projectsLoading.html">Projectos</a></li>
-                        <li class="secondPlace"><a class="DropDown" href="#">Personal-Life</a></li>
+                                href="./assets/loading/projectsLoading.html">Projetos</a></li>
+                        <li class="secondPlace"><a class="DropDown" href="#">Vida-Pessoal</a></li>
                     </ul>
                 </li>
             </ul>
@@ -98,8 +97,9 @@
 
                 <div class="Bio-descripition" data-aos="fade-in">
 
-                    <h1 onclick="StartOne()">Hi, I'm <font color="#00ffff">Assuero</font></h1>
-                    <h2 onclick=" StartTwo()">Front-end development</h2>
+                    <h1 onclick="StartOne()">Hi, I'm <font color="#00ffff">Assuero</font>
+                    </h1>
+                    <h2 onclick=" StartTwo()">Front-end Developer</h2>
                     <br>
                     <div class="IconsHeader">
                         <ul>
@@ -144,7 +144,7 @@
                     </div>
                     <br>
                     <h5>Trabalho como Analista T.I/Sistemas</h5>
-                    <button>Saiba Mais</button>
+                    <a href="./assets/loading/backgroundLoading.html"> <button>Saiba Mais</button></a>
 
                     <!-- Icones piscando momentaneamente desativado -->
                     <!-- <i class="fa-brands fa-react"></i>
@@ -163,26 +163,24 @@
         <section class="main" data-aos="fade-up">
             <div class="about-me">
                 <br>
-                <h2 class="About animate__bounceOutd__delay-5s">Professional Resume</h2>
+                <h2 class="About animate__bounceOutd__delay-5s">Resumo</h2>
                 <div class="about-me-firts">
 
                     <p class="Curriculum" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1200"
                         data-aos-easing="ease-in-out">
-                        Currently working as IT analyst also studying postgraduate studies in Software Engineering,
-                        Graduated in
-                        Computer Network Systems,
-                        Computer Technician and Training in Systems Development Technician, I also have extra curricular
-                        training in
-                        Full-Stack Development Courses (PHP, JavaScript, HTML, CSS, React) , I have already worked with
-                        data
-                        analysis using visual basic for application and Power B.I programming to use and show dynamic
-                        DASHBOARDS, I also have 3 years of IT
-                        Support in Help-Desk.
+                        Atualmente, estou trabalhando como analista de TI e também estou estudando pós-graduação em
+                        Engenharia de Software. Sou formado em Sistemas de Rede de Computadores e formando em
+                        Desenvolvimento de Sistemas, Sou Técnico em Informática. Além disso, tenho treinamento
+                        extracurricular em cursos de desenvolvimento Full-Stack (PHP, JavaScript, HTML, CSS, React). Já
+                        trabalhei com análise de dados usando Visual Basic for Application e programação Power BI para
+                        criar e exibir painéis dinâmicos. Também tenho três anos de experiência em suporte de TI no
+                        Help-Desk.
                     </p>
 
 
-                    <img src="./assets/img/index.gif" width="30%" class="Carrer" data-aos="fade-left" data-aos-delay="100"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out" onclick="StartBio()">
+                    <img src="./assets/img/index.gif" width="30%" class="Carrer" data-aos="fade-left"
+                        data-aos-delay="100" data-aos-duration="1200" data-aos-easing="ease-in-out"
+                        onclick="StartBio()">
                 </div>
             </div>
 
@@ -194,7 +192,7 @@
 
                 <div class="Contact-me cttMe contME">
 
-                    <h1 class="title_contato">Contact Me</h1>
+                    <h1 class="title_contato">Contate-me</h1>
 
                     <div class="contacto-email">
                         <i style="color: #00ffff;" class="fa-regular fa-paper-plane"></i>
@@ -207,9 +205,10 @@
                     </div>
                     <br>
                     <div class="icons-Final">
-                        <a href="https://www.linkedin.com/in/assuero-mota-740636106/" target="_blank"> <i class="fa-brands fa-linkedin "></i></a>
+                        <a href="https://www.linkedin.com/in/assuero-mota-740636106/" target="_blank"> <i
+                                class="fa-brands fa-linkedin "></i></a>
                         <a href="https://github.com/AssueroMota" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                        <a href="#"><i class="fa-sharp fa-solid fa-envelope"></i></a>
                         <i class="fa-brands fa-instagram"></i>
                     </div>
 
@@ -229,37 +228,45 @@
 
 
                 <div class="row input-container">
+                    <div class="img">
+                        <form action="https://formsubmit.co/assueromota@hotmail.com" method="POST" class="envioform">
+
+                            <div class="style-form-input full style-600">
+                                <input type="text" name="nome" id="nome" required />
+                                <label><i class="icon icon-user-1"></i> Nome</label>
+                            </div>
+
+                            <div class="style-form-input width1024 style-600">
+                                <input type="text" name="email" id="email" required />
+                                <label><i class="icon icon-mail-1"></i> E-mail</label>
+                            </div>
+
+                            <div class="style-form-input right width1024 style-600">
+                                <input type="text" name="assunto" id="assunto" required />
+                                <label><i class="icon icon-info-circled"></i> Assunto</label>
+                            </div>
+
+                            <div class="style-form-input full style-600">
+                                <textarea name="mensagem" required id="mensagem"></textarea>
+                                <label><i class="icon icon-comments"></i> Mensagem</label>
+                            </div>
+                            <div class="style-form-input full">
+                                <input type="hidden" name="acao" value="enviar">
+                                <button class="Cv-Form enviarEmail" type="submit"
+                                    onclick="confirmacao ()">Enviar</button>
+                            </div>
 
 
-                    <form method="post" action="#">
-                        <div class="style-form-input full style-600">
-                            <input type="text" name="nome" required />
-                            <label><i class="icon icon-user-1"></i> Nome</label>
-                        </div>
+                            <!-- Estou utilizando uma API para facilitar o uso de envio de email -->
+                            <!-- como recomendação vou utilizar mais alguns comandos proprios da API para uma boa interação com o usuario -->
+                            <input type="hidden" name="_next" value="https://assueromota.github.io/Portfolio/">
+                            <input type="hidden" name="_subject" value="Email VINDO DO PORTFOLIO!">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                        </form>
+                    </div>
 
-                        <div class="style-form-input width1024 style-600">
-                            <input type="text" name="email" required />
-                            <label><i class="icon icon-mail-1"></i> E-mail</label>
-                        </div>
-
-                        <div class="style-form-input right width1024 style-600">
-                            <input type="text" name="assunto" required />
-                            <label><i class="icon icon-info-circled"></i> Assunto</label>
-                        </div>
-
-                        <div class="style-form-input full style-600">
-                            <textarea name="mensagem" required></textarea>
-                            <label><i class="icon icon-comments"></i> Mensagem</label>
-                        </div>
-                        <div class="style-form-input full">
-                            <input type="hidden" name="acao" value="enviar">
-                            <button class="Cv-Form">Enviar</button>
-
-                        </div>
-                    </form>
                 </div>
-
-
 
 
             </div>
@@ -281,45 +288,6 @@
 
 
 
-            <!-- <div class="about-me-two">
-            <p>
-                Épsilon é a quinta letra do alfabeto grego e tem um valor numérico de 5. Nas matemáticas, ε costuma
-                designar
-                pequenas quantidades, ou quantidades que tendem para zero, em particular no estudo dos limites ou da
-                continuidade. Em linguagens formais, o épsilo
-
-            </p>
-            <img src="assets/img/index2.gif" width="30%">
-        </div> -->
-
-
-            <!-- <div class="footer" data-aos="fade-in"
-            style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
-
-            <div class="Emailer"><a href="Assueromota@hotmail.com"><i
-                        class="fa-regular fa-envelope"></i><span>E-mail</span>
-            </div></a>
-            <div class="Linkdedin"><a href="https://www.linkedin.com/in/assuero-mota-740636106/"><i
-                        class="fa-brands fa-linkedin"></i><span>Linkedin</span></div></a>
-            <div class="Github"><a href="https://github.com/AssueroMota"><i
-                        class="fa-brands fa-github"></i><span>Github</span></div></a>
-            <div class="Intagr">
-                <a href="https://www.instagram.com/assuero_mota/?next=%2F">
-                    <i
-                        class="fa-brands fa-instagram"></i><span>Instagram</span></div></a>
-        </div> -->
-
-            <!-- 
-        <div class="footer-Bio">
-
-
-            <img src="assets/img/Bra_Flag.png" width="10%" height="10%">
-            <span>Powered by Assuero Mota</span>
-            <img src="assets/img/Eua_Flag.png" width="10%" height="10%">
-
-
-
-        </div> -->
 
 
 
@@ -349,11 +317,17 @@
     <script src="assets/JavaScpit/Changecolor.js"></script>
     <script src="assets/JavaScpit/icon.js"></script>
     <script src="assets/JavaScpit/script.js"></script>
+
+    <!-- Script Responsavel pelas animações (fade-in, fade-down, fade-left, fade-right) -->
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
 
+    <!-- Esse Script será o responsavel pelas tratativas do envio de E-mail -->
+
+    <script src="assets/JavaScpit/email.js"></script>
 
 
 </body>

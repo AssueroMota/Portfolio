@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .timeline-area {
     margin: 50%;
     margin-right: -50%;
@@ -9,7 +10,7 @@
     width: 360px;
     border-right: 2px solid #ccc;
     padding: 0 20px 0 30px;
-    
+
 }
 
 .Pro-Back {
@@ -18,17 +19,19 @@
     width: 400px;
     margin-bottom: 20px;
 }
-.container-main{
-    background-image: url(../img/Fundo-Parallax-Background.jpg);
+
+.container-main {
+    /* background-image: url(../img/Fundo-Parallax-Background.jpg); */
+    background-color: #0d0d0d;
     background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background-attachment: fixed;
     background-size: cover;
     background-position-y: center;
 }
 
-#HeaderStart{
-    background: rgb(211, 6, 6);;
-    background: radial-gradient(circle,to right rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+#HeaderStart {
+    background: rgb(211, 6, 6);
+    background: radial-gradient(circle, to right rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     height: 55px;
     align-items: center;
     margin-bottom: -10;
@@ -61,22 +64,27 @@
     margin-left: 5%;
     font-size: 20px;
     background-image: url(../img/background-card.jpg);
-    color: #00ffff;
- 
-   
+    color: #ccc;
 }
-.FontTitle h3{
+
+
+/* TESTE */
+
+
+
+.FontTitle h3 {
 
     font-size: 19px;
-    color: #fff;
-   
+    color: #ccc;
+
 
 }
-.FontTitle h4{
-   
+
+.FontTitle h4 {
+
     font-size: 17px;
-    color: #fff;
-   
+    color: #ccc;
+
 
 }
 
@@ -121,6 +129,7 @@
     position: absolute;
     top: 39%;
     right: 8px;
+    box-shadow: 0.1rem 0rem 1rem 0.1rem #ddd;
 }
 
 #card-one::after {
@@ -147,6 +156,7 @@
     position: absolute;
     top: 39%;
     right: 8px;
+    box-shadow: 0.1rem 0rem 1rem 0.1rem #ddd;
 }
 
 #card-two::after {
@@ -174,6 +184,7 @@
     position: absolute;
     top: 39%;
     right: 8px;
+    box-shadow: 0.1rem 0rem 1rem 0.1rem #ddd;
 }
 
 
@@ -200,70 +211,75 @@
     transition: all 0.4s ease-in-out;
 }
 
-#card-two{
+#card-two {
     height: 410px;
 }
 
-#card-one ul li{
+#card-one ul li {
     height: 55px;
 }
-#card-two ul li{
+
+#card-two ul li {
     padding: 5px;
 }
-#card-trhee ul li{
+
+#card-trhee ul li {
     height: 100px;
     text-align: center;
 }
-#card-trhee{
+
+#card-trhee {
     height: 270px;
 }
 
-#card-four{
+#card-four {
     height: 290px;
 }
-#card-one ul li:hover{
+
+#card-one ul li:hover {
     font-size: 17px;
     width: 100%;
     padding: 5px;
     border-radius: 20px;
-    text-align:start;
+    text-align: start;
     list-style-type: none;
     box-shadow: 12px 15px 20px rgb(0 0 0 / 16%);
     background: transparent;
     height: 112%;
-    
+
 }
 
-#card-two ul li:hover{
+#card-two ul li:hover {
     font-size: 17px;
     width: 100%;
     padding: 5px;
     border-radius: 20px;
-    text-align:start;
+    text-align: start;
     list-style-type: none;
     box-shadow: 12px 15px 20px rgb(0 0 0 / 16%);
     background: transparent;
     height: 112%;
-    
+
 }
 
-#card-trhee ul li:hover{
+#card-trhee ul li:hover {
     font-size: 17px;
-    
+
     padding: 5px;
     border-radius: 20px;
-    text-align:center;
+    text-align: center;
     list-style-type: none;
     box-shadow: 12px 15px 20px rgb(0 0 0 / 16%);
     background: transparent;
     height: 110%;
 }
-#card-four ul li:hover{
+
+#card-four ul li:hover {
     font-size: 16px;
     width: 100%;
     padding: 5px;
     border-radius: 20px;
-    text-align:center;
+    text-align: center;
     list-style-type: none;
     box-shadow: 12px 15px 20px rgb(0 0 0 / 16%);
     background: transparent;
@@ -283,6 +299,7 @@
     position: absolute;
     top: 39%;
     right: 8px;
+    box-shadow: 0.1rem 0rem 1rem 0.1rem #ddd;
 }
 
 #card-four::before {
@@ -296,16 +313,4 @@
     top: 40%;
     left: 102%;
 }
-
-
-
-
-
-
-
-
-/* .main{
-    margin-left: -25%;
-} */
-
 
