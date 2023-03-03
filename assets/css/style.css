@@ -8,7 +8,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 html {
@@ -23,7 +22,6 @@ html {
     background-attachment: fixed;
 }
 
-
 .header li a {
     color: aliceblue;
     text-decoration: none;
@@ -31,14 +29,7 @@ html {
     font-family: 'Playfair Display', serif;
 }
 
-
-
-
-
-
-
 .Bio-descripition {
-
     border-radius: 25PX;
     margin-top: 5px;
     color: #333;
@@ -48,9 +39,7 @@ html {
 
 .Bio-descripition p {
     font-size: 25px;
-
 }
-
 
 .Bio-descripition h1 {
     font-size: 50px;
@@ -60,18 +49,18 @@ html {
     font-weight: 500;
     letter-spacing: 2px;
     font-style: italic;
-    width:100%;
+    width: 100%;
     margin: auto;
     text-shadow: 0 0 3px;
 }
 
 .Bio-descripition h2 {
-     color: #fff;
+    color: #fff;
     font-size: 40px;
     font-family: "Poppins";
     font-weight: 200;
     letter-spacing: 2px;
-    width:100%;
+    width: 100%;
     text-shadow: 0 0 2px;
     margin-left: -1px;
 }
@@ -86,7 +75,7 @@ html {
 }
 
 .Bio-descripition button {
-    width:180px;
+    width: 180px;
     margin-top: 40px;
     padding: 8px 8px;
     font-size: 22px;
@@ -97,7 +86,6 @@ html {
     cursor: pointer;
     transition-duration: .9s;
     margin-left: -3px;
-
 }
 
 .Bio-descripition button:hover {
@@ -105,26 +93,16 @@ html {
     color: #fff;
     transition: 0.7s;
     background: transparent;
-
 }
-
-
-
-
-
-
-
 
 .Bio-descripition h1,
 h2 {
     padding: 5px;
     margin: 7px;
-
 }
 
 .Bio-descripition i {
     font-size: 50px;
-
 }
 
 .fa-js:hover {
@@ -143,12 +121,11 @@ h2 {
     font-style: italic;
     display: flex;
     height: 80vh;
-    width:80%;
+    width: 80%;
     margin: auto;
     align-items: center;
     padding: 10px;
 }
-
 
 .IconsHeader ul {
     width: 700px;
@@ -177,7 +154,6 @@ h2 {
     margin-left: -3%;
 }
 
-
 .Bio-descripition h2::after {
     content: '|';
     opacity: 1;
@@ -187,12 +163,10 @@ h2 {
 }
 
 @keyframes blink {
-
     0%,
     100% {
         opacity: 1;
     }
-
     50% {
         opacity: 0;
     }
@@ -200,7 +174,6 @@ h2 {
 
 .about-me {
     padding: 5px;
-
 }
 
 .about-me h2 {
@@ -215,7 +188,6 @@ h2 {
 }
 
 .about-me-firts {
-
     display: flex;
     width: 75%;
     margin: auto;
@@ -223,9 +195,6 @@ h2 {
     justify-content: space-between;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Playfair Display', serif;
-
-
-
 }
 
 .about-me-firts p {
@@ -251,14 +220,12 @@ h2 {
 }
 
 .about-me-two {
-
     display: flex;
     width: 75%;
     margin: auto;
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
-
 }
 
 .about-me-two p {
@@ -273,13 +240,8 @@ h2 {
 }
 
 .about-me-two img:hover {
-
     opacity: 1;
 }
-
-
-
-
 
 .Bio-descripition i:hover {
     transition: all 0.2s ease-in-out;
@@ -288,11 +250,10 @@ h2 {
 .Bio-descripition i {
     margin: 10px;
     font-size: 50px;
-
 }
 
 .Bio-descripition .fa-react:hover {
-    color:#61dafb;
+    color: #61dafb;
 }
 
 i {
@@ -317,14 +278,13 @@ i {
 }
 
 
-
-
 /* Formulario-FINAL */
 
-.img img{
+.img img {
     text-align: center;
     margin-right: 250px;
 }
+
 .Information-Me {
     display: flex;
     width: 92%;
@@ -346,12 +306,8 @@ i {
     margin-bottom: 50px;
 }
 
-
 .Contact-me {
-
-
     width: 35%;
-
 }
 
 .Information-Me .contacto-email {
@@ -364,7 +320,6 @@ i {
 
 .Information-Me .contacto-email p {
     margin-left: 15px;
-
 }
 
 .Information-Me .phone {
@@ -377,7 +332,6 @@ i {
     width: 50%;
     margin: auto;
     margin-top: 17px;
-
 }
 
 .icons-Final i {
@@ -396,7 +350,6 @@ i {
     font-size: 30px;
 }
 
-
 .Cv {
     width: 135px;
     height: 30px;
@@ -407,13 +360,12 @@ i {
     border-radius: 15px;
     transition-duration: 0.5s;
     padding: 5px;
+    animation: float 1.2s ease-in-out infinite;
 }
 
 .Cv a {
     text-decoration: none;
     color: #00cfd5;
-
-
 }
 
 .Cv:hover {
@@ -423,8 +375,7 @@ i {
     color: #00cfd5;
     cursor: pointer;
     transform: translateY(3px);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
-        0 1px 1px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
 }
 
 .Cv-Form {
@@ -438,18 +389,14 @@ i {
     border-radius: 15px;
     transition-duration: 0.5s;
     padding: 5px;
-
 }
 
-
 .Cv-Form:hover {
-
     background-color: #222222;
     color: #00cfd5;
     cursor: pointer;
     transform: translateY(3px);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
-        0 1px 1px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
 }
 
 .fa-linkedin:hover {
@@ -458,12 +405,13 @@ i {
 }
 
 .fa-github:hover {
-    color:#fa7f72;
+    color: #fa7f72;
     font-size: 31px;
 }
 
 .fa-envelope:hover {
-    color: #eead2d;;
+    color: #eead2d;
+    ;
     font-size: 31px;
 }
 
@@ -476,21 +424,10 @@ i {
     font-size: 31px;
 }
 
-
-
-
-
-
-
-
-
-
-
 input:focus~label,
 textarea:focus~label,
 input:valid~label,
 textarea:valid~label {
-
     font-size: 0.8em;
     color: #fff;
     top: -11px;
@@ -502,7 +439,6 @@ textarea:valid~label {
     border-radius: 50px;
     font-weight: bold;
     text-align: center;
-
 }
 
 .style-form-input {
@@ -511,8 +447,6 @@ textarea:valid~label {
     margin: 1em 0;
     position: relative;
     border-radius: 4px;
-
-
 }
 
 .right {
@@ -520,7 +454,6 @@ textarea:valid~label {
 }
 
 @media only screen and (max-width: 768px) {
-
     .style-form-input {
         width: 100%;
     }
@@ -595,20 +528,15 @@ textarea {
 }
 
 .btn-submit:hover {
-
     transform: translateY(3px);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
-        0 1px 1px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
 }
 
 @media (max-width: 768px) {
-
     .btn-submit {
-
         width: 100%;
         float: none;
         text-align: center;
-
     }
 }
 

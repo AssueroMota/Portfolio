@@ -1,137 +1,95 @@
 @media screen and (max-width: 1920px) and (min-width: 1920px) {
-
-
     /* Index-Html */
     .header {
         height: 93px;
     }
-
     .header img {
         margin-left: 21%;
     }
-
     .header ul {
         margin-right: 7%;
     }
-
     .Personal-Bio {
         margin-left: 14%;
         height: 57vh;
     }
-
-
     .about-me {
         height: 370px;
     }
-
     .about-me h2 {
         font-size: 45px;
     }
-
     .about-me img {
         width: 30%;
     }
-
     .about-me p {
         font-size: 23px;
     }
-
     .Information-Me {
         width: 85%;
     }
-
     .Contact-me {
         width: 50%;
-
     }
-
     .Contact-me h1 {
         font-size: 70px;
         text-align: center;
         margin-left: -120px;
     }
-
     /* CURRICULUM */
-
-
     .Background-Title h2 {
         font-size: 50px;
         margin-left: 2%;
     }
-
     .timeline-area {
         margin-left: 30%;
     }
-
     .HardSoft-Skills {
         height: 100%;
     }
-
     .SOFT img {
-        width: 57%;
-        border-radius: 200PX;
+        width: 40%;
+        margin-bottom: -9px;
     }
-
-    .SOFT img:hover {
-        width: 56%;
+    .SOFT ul li {
+        margin-left: 35px;
     }
-
     .HARD img {
-        width: 38%;
+        width: 60%;
+        margin-bottom: 20px;
     }
-
-    .HARD img:hover {
-        width: 37%;
-    }
-
     .aTTributs-Formacion ul {
         margin-top: 10%;
     }
-
     .aTTributs-Formacion ul li {
         margin-top: 25px;
         margin-left: 120px;
-
     }
-
+    .HardSoft-Skills {
+        margin-bottom: 250px;
+    }
     .CtMe {
         margin-top: 4%;
     }
-
     .Contact-me h1 {
         font-size: 55px;
     }
-
     .cttMe h1 {
         margin-left: -21%;
     }
-
     .cttmm h1 {
         margin-left: -21%;
     }
-
-
     /* projectos */
-
     .titlevideo {
         margin-top: 10px;
         margin: 25px;
     }
-
+    .Information-Me .ContactPro h1 {
+        margin-left: -80px;
+    }
     .video-ad video {
         width: 95%;
         height: 400px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }

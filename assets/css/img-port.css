@@ -3,48 +3,66 @@
 .img-port {
     animation: fadeRight 0.5s;
 }
-.Carrer{
+
+.Carrer {
     animation: fadeRight 2s;
 }
-.Curriculum{
+
+.Curriculum {
     animation: fadeLeft 2s;
 }
+
 .About {
     animation: fadeDown 3s;
 }
-.card-Lito{
-    animation: fadeDown 0.8s;
+
+.timeline-area {
+    animation: fade-in 4s;
 }
-.card-Marista{
+
+
+/* .card-Lito {
+    animation: fade-in 1s;
+} */
+
+
+/* .card-Marista {
     animation: fadeRigth 1 s;
 }
+
 .card-Chesf {
     animation: fadeRight 1s;
-}
+} */
+
+
 /* .educationF{
     animation: fadeDown 2s;
-} */ */
-.Title-Academic{
+} */
+
+*/ .Title-Academic {
     animation: fadeDown 2s;
 }
+
 .Metropolitana {
     animation: fadeLeft 1s;
 }
+
 .Marista {
     animation: fadeRight 1s;
 }
 
-.Udemy{
+.Udemy {
     animation: fadeLeft 1s;
 }
 
 .Alura {
-    animation: fadeRight 1s;  
+    animation: fadeRight 1s;
 }
 
 
-
 /* effects of certificate */
+
+
 /* 
 .Education .Alura{
     animation: fadeLeft 0.5s;
@@ -86,56 +104,34 @@
     cursor: pointer;
 } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes fade-in {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
 }
 
-
 @keyframes fadeUp {
-
     from {
         opacity: 0;
         -webkit-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;
         transform: none;
     }
 }
-@keyframes fadeDown {
 
+@keyframes fadeDown {
     from {
         opacity: 0;
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -144,13 +140,11 @@
 }
 
 @keyframes fadeLeft {
-
     from {
         opacity: 0;
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -158,14 +152,12 @@
     }
 }
 
-@keyframes fadeRight{
-
+@keyframes fadeRight {
     from {
         opacity: 0;
         -webkit-transform: translate3d(100%, 0, 0);
         transform: translate3d(100%, 0, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;

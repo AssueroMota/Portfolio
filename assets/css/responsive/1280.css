@@ -6,7 +6,8 @@
     .header img {
         width: 25%;
     }
-    .Contact-me h1{
+
+    .Contact-me h1 {
         font-size: 45px;
         margin-left: -35px;
     }
@@ -15,15 +16,30 @@
         width: 30%;
         height: 298px;
     }
+
     .video-ad video {
         margin-top: 25px;
         width: 340px;
         height: 200px;
         margin-bottom: 25px;
     }
- 
 
+    .Background-Title h2 {
+        text-align: center;
+        margin-left: 6%;
+    }
 
+    .timeline-area {
+
+        margin-left: 25%;
+    }
+
+    .Contact-me .title_contato_h1 {
+        
+        margin-left: 39px;
+        
+       
+    }
 
 
 

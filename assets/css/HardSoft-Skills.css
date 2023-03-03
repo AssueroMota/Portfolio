@@ -4,7 +4,6 @@
     width: 100%;
     max-height: 820px;
     justify-content: center;
-
 }
 
 .HardSoft-Skills p {
@@ -12,14 +11,12 @@
 }
 
 .SOFT {
-
     width: 50%;
     color: aliceblue;
     text-align: center;
     padding: 5px;
     font-weight: 400;
     margin: 15px;
-
 }
 
 .HARD {
@@ -28,8 +25,6 @@
     color: aliceblue;
     text-align: center;
     font-weight: 400;
-
-
 }
 
 .SOFT h2 {
@@ -40,30 +35,73 @@
 }
 
 .SOFT ul {
-    margin: 50px;
+    margin: auto;
     padding: 2px;
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
     margin-top: 70px;
+    margin-left: 170px;
+    padding: 5px;
 }
 .SOFT ul li {
     margin-top: 5px;
-    padding: 4px;
+    padding: 8px;
+    
 }
 
 .aTTributs-Formacion {
-    width: 60%;
+    width: 100%;
     margin: auto;
+   
 }
+
 .SOFT img {
     border-radius:25px;
+    text-align: center;
     margin-bottom: 20px;
+    width: 50%;
+}
+
+.SOFT img:hover{
+    animation: float 0.4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-7px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+    
 }
 .HARD img{
     border-radius: 25px;
-    margin-bottom: 2px;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left: 18px;
 }
 
+.HARD img:hover{
+    animation: float 0.4s ease-in-out infinite;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+    
+}
 
 .HARD h2 {
     font-size: 50px;
@@ -71,16 +109,29 @@
     margin-bottom: 35px;
     padding: 5px;
 }
-
 .HARD ul {
     margin: 50px;
     padding: 2px;
     font-size: 22px;
     text-align: left;
+    margin-left: 170px;   
 }
-
 
 .HARD ul li {
     margin-top: 5px;
     padding: 4px;
 }
+
+.HardSoft-Skills {
+    width: 80%;
+    margin: auto;
+}
+
+@keyframes animationProduto {
+    30% {
+        -webkit-transform: translateY((-0.1px));
+        transform: translateY(-0.1px);
+    }
+}
+
+
